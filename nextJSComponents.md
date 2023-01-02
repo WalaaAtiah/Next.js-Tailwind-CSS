@@ -131,3 +131,30 @@ import Link from 'next/link'
 
 
 ```
+
+8. form 
+
+```
+
+```
+
+9. deale with dynamic data 
+
+* go to the parents of the clint components and write this command in the first line ` "use client" `
+
+```
+import { useState } from "react";
+
+export default function Form(){
+
+    
+    const [userInput, setUserInput] = useState("");
+
+const handleChange = (e) => {
+        setUserInput(e.target.value);
+        // console.log(e.target.value)
+    }
+
+<input onChange={handleChange}  >
+
+```
