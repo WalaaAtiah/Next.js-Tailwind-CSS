@@ -1,4 +1,4 @@
-# next JS Components:
+# next JS Components lab 32:
 
 1. **ROUTE**
     * in `React` function need to install route then import it with all component stafe then use it like : 
