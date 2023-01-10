@@ -14,6 +14,8 @@
 ### * PROPS :Dynamic ,pass data between components 
 ### * context API :almost static data ,each components can pass data directly from the context file 
 
+# theme context 
+
 ## Toggling dark mode manually[source](https://tailwindcss.com/docs/dark-mode)
 1. in the element `className="dark:bd-black"` 
 2. in the `body` inside the `layout.js` add `class="dark"` //add this class for the perant of the components
